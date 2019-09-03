@@ -29,5 +29,5 @@ class B{
 $a = new A;
 $a->setName('ddd');
 $a->printName(); // A.name [ddd] 
-$a->printName2(); // B.name (printName2) [ddd] 
+$a->printName2(); // B.name (printName2) [ddd] << ! important !
 $a->callPrintName(); // A.name [ddd] 
