@@ -1,4 +1,7 @@
 <?php
+/**
+ * private member variable with extends
+ */
 class A  extends B{
   private $name;
   public function setName($name){
@@ -8,7 +11,6 @@ class A  extends B{
     echo "A.name [".$this->name. "]\n<br>";
   }
 }
-
 class B{
   private $name;
   public function setName($name){
@@ -24,10 +26,6 @@ class B{
     $this->printName();
   }
 }
-
-
-
-
 $a = new A;
 $a->setName('ddd');
 $a->printName(); // A.name [ddd] 
