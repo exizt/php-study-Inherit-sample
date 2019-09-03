@@ -38,3 +38,10 @@ $a->callPrintName(); // A.name [ddd]
 /// setName ($name2) 식으로 변수명이 바뀌는 것은 괜찮습니다. 
 /// setName ($name) -> setName ($name2) ==> allow...
 /// 갯수가 늘어나거나, 타입이 변경된 경우. (Request $request) -> (AdvancedRequest $request) ==> error....
+
+
+/// 대안 1. using 'interface'
+/// 대안 2. using '...params' 
+function sum(... $numbers){
+}
+/// 대안 3. using array
