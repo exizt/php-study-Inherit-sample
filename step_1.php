@@ -30,6 +30,6 @@ class B{
 
 $a = new A;
 $a->setName('ddd');
-$a->printName();
-$a->printName2();
-$a->callPrintName();
+$a->printName(); // A.name [ddd] 
+$a->printName2(); // B.name (printName2) [] 
+$a->callPrintName(); // A.name [ddd] 
